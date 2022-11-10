@@ -26,3 +26,5 @@ directory: environment
 
 #122 Http GET + Pipe Async. Evitar problemas de memoria da aplicação por cache  VER MAIS SOBRE
 cursos$ = observable
+
+#123: Http + RxJS: Unsubscribe Automático
