@@ -2,13 +2,12 @@
   "cursos": [
     {
       "id": 1,
-      "title": "nome",
-      "author": "Angular"
+      "nome": "Angular"
+
     },
     {
-      "nome": "Java OO",
-      "time": "Wed, 21 Oct 2015 18:27:50 GMT",
-      "id": 2
+    "nome": "Java",
+    "id":2
     }
   ]
 }

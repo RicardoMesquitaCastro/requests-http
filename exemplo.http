@@ -9,22 +9,13 @@ GET http://localhost:3000/cursos/1
 POST  http://localhost:3000/cursos/ HTTP/1.1
 content-type: application/json
 
-{
-    "nome": "Java OO",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
-
-}
 
 ###
 //ATUALIZAR
 PUT http://localhost:3000/cursos/2 HTTP/1.1
 content-type: application/json
 
-{
-    "nome": "Java",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
 
-}
 ###
 
 DELETE   http://localhost:3000/cursos/2
