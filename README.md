@@ -21,4 +21,8 @@ PLUGIN: REST Client no VS code para simular requisições
 
 #120 Http GET: listar registros
 
-#121 Http: Dica: Variável de Ambiente para parametrizar qual a URL a utlilizar
+#121 Http: Dica: Variável de Ambiente para parametrizar qual a URL a utlilizar 
+directory: environment
+
+#122 Http GET + Pipe Async. Evitar problemas de memoria da aplicação por cache  VER MAIS SOBRE
+cursos$ = observable
