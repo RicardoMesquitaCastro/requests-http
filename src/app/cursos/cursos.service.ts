@@ -1,3 +1,4 @@
+import { environment } from './../../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
@@ -9,7 +10,7 @@ import { Curso } from "./Curso.1";
 })
 export class CursosService {
 
-  private readonly API= 'http://localhost:3000/cursos'
+  private readonly API= `${environment.API}cursos`; //vem de environment (variável de ambiente)
 
   constructor(private http: HttpClient) {}
 

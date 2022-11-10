@@ -18,3 +18,7 @@ npm i json-server //Instalado globalmente na maquina
 Start JSON Server
 json-server --watch db.json //raiz do projeto 
 PLUGIN: REST Client no VS code para simular requisições
+
+#120 Http GET: listar registros
+
+#121 Http: Dica: Variável de Ambiente para parametrizar qual a URL a utlilizar
