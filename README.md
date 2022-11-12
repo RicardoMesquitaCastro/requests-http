@@ -28,3 +28,7 @@ directory: environment
 cursos$ = observable
 
 #123: Http + RxJS: Unsubscribe Automático
+ESTUDAR MAIS SOBRE
+
+#124: Capturando Erros (+Erro com async)
+catchError
