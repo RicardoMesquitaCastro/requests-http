@@ -16,6 +16,7 @@ export class UnsubscribePocComponent implements OnInit {
   }
 
   emitirValor(valor: string) {
+    this.service.emitirValor(valor); //vem de enviar-valor.service.ts
 
   }
 
